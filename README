@@ -1,0 +1,40 @@
+//Regex101 Tutorial: Understanding the Email Matching Regex
+//Description
+This project is a detailed tutorial on how to understand and break down a specific regular expression (regex) used to match email addresses. The tutorial is designed to help developers, especially those new to regex, understand the components of the regex and how each part works together to validate an email address.
+
+//Table of Contents
+Installation
+Usage
+Regex Breakdown
+Contributing
+License
+Contact
+//Installation
+No installation is required to use this tutorial. Simply visit the GitHub Gist to read through the explanation of the regex.
+
+//Usage
+This tutorial is intended for educational purposes. It explains how a regular expression works by breaking down each component. You can use the regex discussed in this tutorial to validate email addresses in your web applications or any other software that requires email validation.
+
+The regex covered in this tutorial is:
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+//Regex Breakdown
+The tutorial covers the following components of the regex:
+
+Anchors: ^ and $ are used to match the start and end of the string.
+Character Classes: [a-z0-9_\.-] matches lowercase letters, digits, underscores, periods, and hyphens.
+Quantifiers: + ensures that the preceding character class appears one or more times.
+Grouping and Capturing: () are used to group parts of the regex and capture them for backreferences.
+Escaping Special Characters: \. escapes the dot character, which is normally a wildcard in regex.
+//Contributing
+Contributions are welcome! If you find any errors or have suggestions for improvements, feel free to create a pull request or submit an issue on the GitHub repository.
+
+//License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+//Contact
+If you have any questions, feel free to reach out:
+
+Name: Maria Roa
+GitHub: aleroas
+gist-github: https://gist.github.com/aleroas/a6276cb77bca9cadbfff51cdb668712d
